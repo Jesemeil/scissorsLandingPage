@@ -1,8 +1,12 @@
-import { Layout } from "../Layout/Layout";
-import {Hero} from "../pages/Hero";
+import Home from "../pages/Home";
+import {Layout} from "../Layout/Layout";
+import About from "../pages/About"
+import {Form} from "../pages/Login/Form";
+import {Login} from "../pages/Login";
 import Features from "../pages/Features";
-import {Pricing} from "../pages/Pricing";
-import {Analytics} from "../pages/Analytics";
+import Analytics from "../pages/Analytics";
+import FAQ from "../pages/FAQ";
+import Pricing from "../pages/Pricing";
 
 export const ROUTES = [
   {
@@ -11,20 +15,39 @@ export const ROUTES = [
     children: [
       {
         path: "",
-        element: <Hero/>,
+        element: <Home/>,
       },
       {
-        path: '',
-        element: <Features/>
+        path: "features/",
+        element: <Features/>,
       },
       {
-        path: '',
-        element: <Pricing/>
+        path: "analytics/",
+        element: <Analytics/>,
       },
       {
+        path: "faq/",
+        element: <FAQ/>,
+      },
+      {
+        path: "pricing/",
+        element: <Pricing/>,
+      },
+      {
+        path: "about/",
+        element: <About/>,
+      },
+    ]
+  },
+  {
+    path: '/login',
+    element: <Login/>,
+    children: [
+      {
         path: '',
-        element: <Analytics/>
+        element: <Form/>,
       }
     ]
   }
+
 ]

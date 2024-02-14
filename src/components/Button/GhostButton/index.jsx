@@ -1,19 +1,18 @@
 
-export function GhostButton(props){
+export function GhostButton({color, padding, callBack, text}){
 
   return(
     <button 
     className="ghost-button"
     style={{
       border: "none",
-      color: props.color,
-      padding: props.padding,
+      color: color,
+      padding: padding,
       background: "none",
-      color: props.color,
       fontWeight: "bold",
-
-    }}>
-      {props.text}
+        cursor: "pointer",
+    }} onClick={() => callBack()}>
+      {text}
       
     </button>
   )

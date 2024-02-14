@@ -3,15 +3,16 @@ import {Pricing} from "../Home/Pricing";
 import {Analytics} from "../Home/Analytics";
 import {FAQs} from "../Home/FAQs";
 import {GetStarted} from "../Home/GetStarted";
+import {Features} from "../Home/Features";
 
-
-const Features = () => {
+const FAQ = () => {
     return <>
-        <GetStarted/>
+        <Hero/>
+        <Features/>
         <Pricing/>
         <Analytics/>
         <FAQs/>
-        <Hero/>
+        <GetStarted/>
     </>
 }
-export default Features;
+export default FAQ;

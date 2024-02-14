@@ -1,11 +1,11 @@
 import style from './index.module.css'
-import blueLine from '../../assets/images/Vector 3.png'
-import { FilledButton } from '../../components/Button/FilledButton'
-import { GhostButton } from '../../components/Button/GhostButton'
-import triangle from '../../assets/images/Vector 2.png'
-import bracketDash from '../../assets/images/dashbracket.png'
-import layDown from '../../assets/images/Rectangle 9.png';
-import ellipse from '../../assets/images/Ellipse 1.png'
+import blueLine from '../../../assets/images/Vector 3.png'
+import { FilledButton } from '../../../components/Button/FilledButton'
+import { GhostButton } from '../../../components/Button/GhostButton'
+import triangle from '../../../assets/images/Vector 2.png'
+import bracketDash from '../../../assets/images/dashbracket.png'
+import layDown from '../../../assets/images/Rectangle 9.png';
+import ellipse from '../../../assets/images/Ellipse 1.png'
 
 export function Hero(){
   

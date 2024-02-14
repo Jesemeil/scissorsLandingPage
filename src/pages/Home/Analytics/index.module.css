@@ -9,7 +9,7 @@
 
 .thirdSection{
 
-  background-image: url('../../assets/images/thirdSectionbg.jpg');
+  background-image: url('../../../assets/images/thirdSectionbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
